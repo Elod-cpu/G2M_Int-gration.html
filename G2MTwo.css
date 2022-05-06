@@ -1,0 +1,353 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.hightcontainer{
+    background-image:url(pattern.png) ;
+}
+
+header{
+    display: flex;
+    width: auto;
+    height:10vh ;
+    justify-content: space-between;
+}
+
+.part1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo{
+    margin-right: 150px;
+    margin-left: 56px;
+    margin-top: 30px;
+}
+
+
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    margin: 10px;
+    margin-top: 30px;
+    margin-right: 30px;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul li a{
+    color:white;
+    font-style: normal;
+}
+
+ul li a:hover{
+    color: #CD5C93;
+}
+
+.part2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn{
+    align-self: center;
+    margin-left: -30rem;
+    margin-right: 40px;
+    margin-top: 25px;
+    border-radius: 5px;
+    color:white;
+    background-color:transparent;
+    width: 100px;
+    height: 40px;
+    border: solid 0.5px white;
+}
+
+.part2 a{
+    text-decoration: none;
+    color: white;
+    display: block;
+    margin-top: 2rem;
+    margin-right: 0.5rem;
+}
+
+.icon{
+    color: white;
+    font-size: 1rem;
+    margin-top: 30px;
+    margin-right: 0.5rem;
+}
+
+
+select{
+    margin-top: 30px;
+    background-color: transparent;
+    border: white solid 1px;
+    color: white;
+    border-radius: 8px;
+}
+
+.Container{
+    display: flex;
+    height: 80vh;
+}
+
+.service{
+    margin-top: 50px;
+    margin-left: 50px;
+    width: 40%;
+}
+
+h1 p{
+    color: #f4d61e;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+}
+
+h2 p{
+    color: white;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-top: 0.5rem;
+    margin-right: 20px;
+}
+
+h3 p{
+    color: white;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    margin-top: 0.5rem;
+    text-align: justify;
+}
+
+h4 .Rose{
+    margin-top: 20px;
+    margin-left: 17px;
+    height: 30px;
+    width: 150px;
+    background-color: rgb(194, 39, 78);
+    border-radius: 5px;
+    border: none;
+    color: white;
+}
+
+.Lesdeux {
+    display: flex;
+    justify-content: space-between;
+}
+
+.Go{
+    border-radius: 50%;
+    background-color:transparent;
+    height: 30px;
+    width: 30px;
+    border: solid 1px white;
+    margin-top: 1rem;
+    margin-left: -17rem;
+}
+
+p{
+    color: white;
+    margin-top: 1.5rem;
+    margin-left: 15px;
+}
+
+.play{
+    display: flex;
+    align-self: center;
+    justify-self: center;
+}
+
+.icone{
+    margin-left: 200px;
+    padding: 40px;
+    display: flex;
+}
+
+.icone img {
+    max-width: 100%;
+    max-height: 100%;
+}
+   
+ .blaz {
+     display: flex;
+     justify-content: space-between;
+     width: 7%;
+     position: absolute;
+     margin-top: -45px; ;
+     right: 60px;
+}   
+
+.Fbk{
+    max-width: 100%;
+    max-height: 100%;
+    font-size: x-large;
+    color: white;
+}
+
+.Twit{
+    max-width: 100%;
+    max-height: 100%;
+    font-size: x-large;
+    color: white;
+}
+
+.Insta{
+    max-width: 100%;
+    max-height: 100%;
+    font-size: x-large;
+    color: white;
+}
+
+/*Fin de la page d'accueil*/
+
+.hightcontainer2{
+    display: flex;
+    padding: 100px;
+}
+
+h5 p{
+    color: orange;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+}
+
+h6 p{
+    color: black;
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+p{
+    color: black;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+}
+
+
+/*Fin de la page 2*/
+
+.hightcontainer3{
+    display: flex;
+    width: auto;
+    height: 80vh;
+}
+
+.Sage{
+    width: 100%;
+    height: 20vh;
+}
+.top{
+    display:block;
+    margin-top: 50px;
+    position: absolute;
+}
+
+.p0{
+    color: orange;
+    font-size: 16px;
+    margin-left: 60px;
+}
+
+.p2{
+    color:black;
+    font-size: 22px;
+    margin-left: 60px;
+    font-weight: bold;
+    margin-top: 9px;
+}
+
+.Dan p{
+    margin-left: 70%;
+    margin-top: 49px;
+}
+
+.cservice{
+    display: flex;
+    width: 100%;
+    height: 80vh;
+}
+
+.circleone{
+    display: flex;
+    height: 90px;
+    width: 90px;
+    border-radius: 100%;
+    border: orange 4px solid;
+    margin-top: 80px;
+    margin-left: 60px;
+    flex-direction: column;
+}
+
+
+.circletwo{
+    display: flex;
+    height: 90px;
+    width: 90px;
+    border-radius: 100%;
+    border: violet 4px solid;
+    margin-top: 80px;
+    margin-left: 400px;
+    flex-direction: column;
+}
+
+.circlethree{
+    display: flex;
+    height: 90px;
+    width: 90px;
+    border-radius: 100%;
+    border: blue 4px solid;
+    margin-top: 80px;
+    margin-left: 400px;
+    flex-direction: column;
+}
+
+
+.p{
+    margin-top: 100px;
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.p1{
+    margin-top: 10px;
+    color: black;
+    width: 150px;
+}
+
+.anay{
+    width: 42px;
+    height: 41px;
+    transform: translate(20px,30px);
+}
+
+.pro{
+    width: 52px;
+    height: 46px;
+    transform: translate(20px,30px);
+}
+
+.we{
+    width: 52px;
+    height: 46px;
+    transform: translate(20px,30px);
+}
+
+/*Fin de la page trois*/
+
+.highcontainer4{
+    display: flex;
+    height: 20vh;
+    background-color: #CD5C93;
+}
