@@ -4,7 +4,7 @@
 }
 
 .hightcontainer{
-    background-image:url(pattern.png) ;
+    background-image:url(pattern.png);
 }
 
 header{
@@ -355,44 +355,25 @@ p{
 
 .highcontainer4{
     width: 100%;
-    height: 100vh;
+    height: 80vh;
 }
 
 .line{
+    color: orange;
     width: 70%;
-    height: 10vh;
-    font-size: 14px;
+    height: 13vh;
+    margin-left: 50px;
+}
+
+.line1{
+    width: 100%;
+    height: 30vh;
+    font-size: 20px;
     color: orange;
     display: flex;
     align-items: center;
-    margin-left: 70px;
+    justify-content: space-between;
 }
-
-.highcontainer4 .line1{
-    display: flex;
-    width: 90%;
-    height: 70vh;
-    align-items: center;
-    margin-left: 70px;
-}
-
-.line1 .T{
-    display: flex;
-    margin-bottom: 10%;
-}
-
-.line1 .R{
-    display: flex;
-    margin-left: 160px;
-}
-
-.line1 .C{
-    display: flex;
-    margin-left: 230px;
-    margin-bottom:100px ;
-}
-
-
 
 .cercle{
     height: 80px;
@@ -407,14 +388,12 @@ p{
     width: 80px;
     border:orange solid 5px;
     border-radius: 100%;
-
-
 }
 
 .line1 .cercle1{
     height: 80px;
     width: 80px;
-    border:red solid 5px;
+    border:purple solid 5px;
     border-radius: 100%;
 }
 
@@ -432,27 +411,17 @@ p{
     padding: 20px;
 }
 
-.line1 .textes h5{
-    word-spacing: 0px;
-    font-display: block;
-}
 
 .line2{
     display: flex;
-    flex-direction:wrap;
     justify-content: space-between;
-    background-color: blanchedalmond;
 }
 
-.line2 .textes h5{
-    word-spacing: 0px;
-    font-display: block;
-}
 
 .cercle2{
     height: 80px;
     width: 80px;
-    border: blue solid 5px;
+    border: rgb(98, 98, 160) solid 5px;
     border-radius: 100%;
     margin: 20px;
 }
@@ -460,16 +429,14 @@ p{
 .cercle3{
     height: 80px;
     width: 80px;
-    border:orange solid 5px;
+    border: rgb(9, 9, 56) solid 5px;
     border-radius: 100%;
-
-
 }
 
 .cercle4{
     height: 80px;
     width: 80px;
-    border:red solid 5px;
+    border:orange solid 5px;
     border-radius: 100%;
 }
 
@@ -487,10 +454,121 @@ p{
     padding: 20px;
 }
 
+.highcontainer4 .line1 .T{
+    display: flex;
+    justify-content: space-between;
+}
 
+.highcontainer4 .line2 .O{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
 
+.highcontainer4 .line1 .textes{
+    font-size: 14px;
+    color: black;
+}
 
+/*Fin des cercles*/
 
+.highcontainer5{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    background: rgb(218, 207, 207);
+    border-radius:30px 30px 0px 0px;
+}
 
+section{
+    display: flex;
+}
+.text{
+    width: 350px;
+    height: 250px;
+    margin-top: 120px;
+    margin-left: 300px;
+    
+}
 
+.text h5{
+    color: orange;
+    font-weight: lighter;
+    font-size: 15px;
+    margin-right: 90px;
+    align-self: center;
+}
 
+.text h2{
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    margin-right: 73px;
+    margin-top: 14px;
+}
+
+.text h6{
+    color: black;
+    font-weight: 12px;
+    font-size:10px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-right: 73px;
+    margin-top: 15px;
+}
+
+.text .carré .arrière{
+    display: flex;
+}
+
+.carré{
+    height: 35%;
+    width: 15%;
+    background-color: rgb(151, 144, 144);
+    margin-top: 8%;
+    position: absolute;
+    right: 30%;
+    border-radius: 10px;
+}
+.arrière{
+    height: 30%;
+    width: 30%;
+    border-radius: 12px;
+    background-color:white;
+    position: relative;
+    margin-right: 30px;
+    margin-top: 16%;
+    left: 12%;
+}
+
+.highcontainer6 section{
+    width: 100%;
+    height: 100vh;
+    background-color: grey;
+}
+
+.head{
+    width: 90%;
+    height: 20vh;
+    background-color: grey;
+    display: flex;
+}
+
+.head{
+    margin-left: 60px;
+}
+
+.head .bip h5{
+    color: orange;
+    font-size: 12px;
+    font-weight: lighter;
+    margin-top: 15px;
+    margin-left: 20px;
+}
+
+.head .bip h3{
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 15px;
+    margin-left: 20px;
+}
